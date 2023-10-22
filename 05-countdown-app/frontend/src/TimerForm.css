@@ -1,0 +1,22 @@
+/* Custom styling for TimerForm component */
+.TimerForm label {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.TimerForm input.form-control {
+  border: 1px solid #ced4da;
+  margin-bottom: 10px; /* Add margin to create space below the input fields */
+  margin-top: 10px;
+}
+
+.TimerForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 10px; /* Add margin to create space above the button */
+}
+
+.TimerForm button:hover {
+  background-color: #0056b3;
+}

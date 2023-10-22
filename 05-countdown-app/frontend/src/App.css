@@ -1,0 +1,28 @@
+/* Custom styling for App component */
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Additional styling for h1 and TimerForm */
+.App h1 {
+  font-size: 28px;
+  color: #343a40;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #fff; /* Engraved text shadow effect */
+}
+
+.TimerForm {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
