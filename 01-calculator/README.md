@@ -25,8 +25,8 @@ Follow the instructions below to set up and run the calculator application on yo
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/react-calculator-app.git
-   cd react-calculator-app
+   git clone https://github.com/bhanu-code-repo/react-with-python.git
+   cd 01-calculator
    ```
 ### Running the Application
 1. Start the React front-end:
