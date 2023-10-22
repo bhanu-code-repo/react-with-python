@@ -1,0 +1,89 @@
+/* GuessingGame.css */
+
+/* Center the game container */
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the game title */
+h1 {
+  color: #0074d9; /* Blue color */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  max-width: 250px;
+  font-size: 1.25rem;
+  text-align: center;
+  border: 2px solid #0074d9; /* Blue border */
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+button {
+  width: 100%;
+  max-width: 250px;
+  font-size: 1.5rem;
+  background-color: #0074d9; /* Blue background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the game message */
+p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #28a745; /* Green text for correct guesses */
+}
+
+p.error {
+  color: #dc3545; /* Red text for errors */
+}
+
+/* Style the card */
+.card {
+  background-color: #f7f7f7; /* Light gray background */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Engraved title style */
+.engraved {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #0074d9; /* Blue color */
+  background-image: linear-gradient(0deg, #0074d9 0%, #0074d9 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 100%;
+  transition: background-size 0.3s;
+}
